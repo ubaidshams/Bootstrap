@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(to bottom, #765779, #7c5d87, #816395, #856aa4, #8672b4);
+}
+nav
+{
+    background-image: linear-gradient(to right, #67D8D4);
+}
+nav a
+{
+    margin: 5px;
+    border-radius: 10px;
+    color: navy;
+}
+nav a:hover
+{
+    background-color: darkgray;
+    color: #B45596;
+}
+.container
+{
+    width: 50%;
+    height: 800px;
+    margin-top: 100px 0px;
+    /* background-color:black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container h2
+{
+    color: white;
+}
+.form-holder
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #343d4e, #2e354c, #2a2c48, #292243, #2a183d, #2f1843, #351749, #3b164e, #432265, #49307d, #4b3e96, #484db1);
+    border-radius: 100px;
+    color: hotpink;
+}
+.form-holder button
+{
+    border-radius: 25px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: rgb(100, 149, 172);
+    color:thistle;
+    cursor: pointer;
+}
+.form-holder button:hover
+{
+    box-shadow: 0px 0px 1px 2px;
+    background: rgb(48, 221, 100);
+    color: rgb(2, 19, 19);
+}
+.form-group input
+{
+    border-radius: 10px;
+    border: none;
+}
+form button a
+{
+    text-decoration: none;
+    color: darkorchid;
+}
+footer ul li a
+{
+    text-decoration: none;
+    color: black;
+}
